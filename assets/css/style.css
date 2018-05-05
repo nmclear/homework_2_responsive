@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/light-veneer/light-veneer.png);
+    color: #777777;
+    letter-spacing: 1px;
+    line-height: 150%;
+    font-size: 16px;
+    margin: 0;
+}
+.container {
+    width: 66.666666666667%;
+    margin: 0 auto;
+    background: #ffffff;
+    border: solid 1px #dddddd;
+    padding: 0 40px;
+}
+
+.headshot-img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+/* Header CSS */
+    header {
+        background: #ffffff;
+        border: solid 1px #cccccc;
+        height: 75px;
+        width: 100%;
+        margin-bottom: 30px;
+        position: relative;
+        line-height: 75px;
+    }
+
+    h1,
+    h2 {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+    h1 {
+        background: #4aaaa5;
+        text-align: center;
+        width: 225px;
+        height: 75px;
+        position: absolute;
+        left: 16.666666666667%;
+        margin: 0;
+    }
+
+    h2 {
+        color: #4aaaa5;
+    }
+
+    .h-teal {
+        background: #4aaaa5;
+        color: #ffffff;
+    }
+
+/* Navbar CSS */
+    nav {
+        position: absolute;
+        right: 16.666666666667%;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #777777;
+    }
+
+    nav a:hover {
+        color: #dddddd;
+    }
+
+    nav span {
+        color: #dddddd;
+        margin: 2px; 
+    }
+
+/* Footer CSS */
+    footer {
+        background: #666666;
+        color: #ffffff;
+        margin-top: 50px;
+        font-size: 9px;
+        height: 55px;
+        text-align: center;
+        line-height: 55px;
+    }
+
+    .div-foot {
+        background: #4aaaa5;
+        height: 5px;
+    }
+
+/* Contact Form CSS */
+    input,
+    #message {
+        width: 100%;
+    }
+
+    .submit-btn {
+        width: 90px;
+        padding: 10px;
+        background: #4aaaa5;
+        color: #ffffff;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .submit-btn:hover {
+        opacity: .8;
+    }
+
+
+/* Portfolio Page CSS */    
+    .sample-work {
+        width: 100%;
+        position: relative;
+    }
+
+    .portfo img{
+        width: 40%;
+        height: auto;
+        margin: 2.5%;
+    }
+
+    .portfo h3 {
+        width: 40%;
+        position: absolute;
+        text-align: center;
+        bottom: 15px;
+        margin: 2.5%;
+        opacity: .8;
+    }
