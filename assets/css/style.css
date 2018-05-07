@@ -19,6 +19,10 @@ body {
     padding: 0 40px;
 }
 
+br {
+    display: none;
+}
+
 .headshot-img {
     height: 200px;
     width: 200px;
@@ -138,4 +142,76 @@ body {
         bottom: 15px;
         margin: 2.5%;
         opacity: .8;
+    }
+
+
+
+   /* Width at 980px and below */
+    @media screen and (max-width: 980px) {
+        .container {
+            margin: 40px;
+        }
+        h1 {
+            left: 40px;
+        }
+        nav {
+            right: 40px;
+        }
+    }
+    
+
+    
+    /* Width at 768px and below */
+    @media screen and (max-width: 768px) {
+        .container {
+            width: 95%;
+            margin: 0 20px;
+            left: 20px;
+            right: 20px;
+        }
+        h1 {
+            left: 20px;
+        }
+
+        nav {
+            right: 20px;
+        }
+    }
+    
+    /* Width at 640px and below */
+    @media screen and (max-width: 640px) {
+        .container {
+            margin-top: 80px;
+        }
+
+        h1 {
+            left: 0;
+            width: 100%;
+        }
+
+        nav {
+            width: 100%;
+            background: #ffffff;
+            border: solid 1px #cccccc;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            padding: 0;
+            margin-bottom: 40px;
+            right: 0;
+
+            
+        }
+
+        .portfo img {
+            width: 100%;
+        }
+
+        .portfo h3 {
+            width: 100%;
+        }
+
+        br {
+            display: block;
+        }
     }
